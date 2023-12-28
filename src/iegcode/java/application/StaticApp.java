@@ -1,11 +1,13 @@
 package iegcode.java.application;
 
+import annotation.Fancy;
 import iegcode.java.MathUtil.MathUtil;
 import static iegcode.java.data.Application.PROCESSORS;
 import static iegcode.java.data.Constant.*;
 import iegcode.java.data.Country;
 
 public class StaticApp {
+    @Fancy(name = "AnimalApp", tags = {"Application", "Java"})
     public static void main(String[] args) {
 
         System.out.println(APPLICATION);
